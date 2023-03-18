@@ -17,7 +17,7 @@
 
 ```lua
 require("lazy").setup({
-	{ 'rose-pine/neovim', name = 'rose-pine' }
+	{ 'oleksilluchikov/rose-pine.nvim', name = 'rose-pine' }
 })
 
 vim.cmd('colorscheme rose-pine')
@@ -26,7 +26,7 @@ vim.cmd('colorscheme rose-pine')
 > With [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use({ 'rose-pine/neovim', as = 'rose-pine' })
+use({ 'oleksilluchikov/rose-pine.nvim', as = 'rose-pine' })
 
 vim.cmd('colorscheme rose-pine')
 ```
