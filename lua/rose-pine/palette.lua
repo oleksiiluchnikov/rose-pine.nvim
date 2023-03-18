@@ -88,6 +88,9 @@ end
 if options.variant == 'dawn' then
 	return variants.dawn
 end
+if options.variant == 'pleinair' then
+	return variants.pleinair
+end
 
 return vim.o.background == 'light' and variants.dawn
 	or variants[options.dark_variant or 'main']
