@@ -58,6 +58,25 @@ local variants = {
 		highlight_high = '#cecacd',
 		none = 'NONE',
 	},
+	pleinair = {
+		_experimental_nc = '#16141f',
+		base = '#191724',
+		surface = '#1f1d2e',
+		overlay = '#26233a',
+		muted = '#584671',
+		subtle = '#908caa',
+		text = '#d7cec1',
+		love = '#eb4892',
+		gold = '#f6956b',
+		rose = '#ebbcba',
+		pine = '#1898c0',
+		foam = '#bdbbff',
+		iris = '#aa7cff',
+		highlight_low = '#21202e',
+		highlight_med = '#403d52',
+		highlight_high = '#524f67',
+		none = 'NONE',
+	},
 }
 
 if options.variant == 'main' then
