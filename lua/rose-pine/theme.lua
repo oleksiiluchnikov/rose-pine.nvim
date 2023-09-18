@@ -15,7 +15,7 @@ function M._load(options)
 		or p.none
 	maybe.dim_nc_background = (
 		options.dim_nc_background and groups.background_nc
-	) or maybe.base
+		) or maybe.base
 
 	h('ColorColumn', { bg = p.overlay })
 	h('Conceal', { bg = p.none })
@@ -280,7 +280,7 @@ function M._load(options)
 	h('LspReferenceWrite', { bg = p.highlight_med })
 
 	-- lsp-highlight-codelens
-	h('LspCodeLens', { fg = p.subtle }) -- virtual text of code len
+	h('LspCodeLens', { fg = p.subtle })               -- virtual text of code len
 	h('LspCodeLensSeparator', { fg = p.highlight_high }) -- separator between two or more code len
 
 	-- romgrk/barbar.nvim
@@ -340,8 +340,8 @@ function M._load(options)
 	h('NvimTreeSpecialFile', { link = 'NvimTreeNormal' })
 	h('NvimTreeWindowPicker', { fg = p.love, bg = p.love, blend = 10 })
 
-  -- nvim-neo-tree/neo-tree.nvim
-  h('NeoTreeTitleBar', { fg = p.surface, bg = p.pine })
+	-- nvim-neo-tree/neo-tree.nvim
+	h('NeoTreeTitleBar', { fg = p.surface, bg = p.pine })
 
 	-- folke/which-key.nvim
 	h('WhichKey', { fg = p.iris })
@@ -442,7 +442,7 @@ function M._load(options)
 	h('PounceMatch', { link = 'Search' })
 
 	local float_background = options.dim_nc_background
-			and (options.disable_float_background and groups.panel_nc or groups.panel)
+		and (options.disable_float_background and groups.panel_nc or groups.panel)
 		or maybe.surface
 
 	-- ggandor/leap.nvim
